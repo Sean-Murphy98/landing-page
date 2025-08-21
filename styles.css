@@ -6,8 +6,9 @@
 
 .opening{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .content{
@@ -23,25 +24,48 @@ h1{
     size: 24px;
     color: #F9FAF8;
     margin-right: auto;
-    flex: 2 1 0%;
 }
-.menu{
+.menu, .headerbody{
     display: flex;
-    gap: 7px;
-    width: 80%;
+    width: 70%;
     justify-content: center;
+    align-items: center;
     padding: 1em 0;
 }
-.menu.headerlink{
-    flex: 1 1 0%;
+.headerbody{
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em 0;
+
+}
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    flex: 1;
+}
+.menu .headerurls{
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
 }
 img{
     height: 100px;
     width: auto;
 }
 
-.headerlink a{
+.headerlink a, .headercontent p{
     size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.signup{
+    background-color: #3882F6;
+    padding: 0.5em 1em;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
 }
