@@ -1,0 +1,44 @@
+*{
+    font-family: 'Roboto', serif;
+    box-sizing: border-box;
+}
+
+.opening{
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.content{
+    width: 100vw;
+    
+}
+h1{
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.headertxt{
+    size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+.menu{
+    display: flex;
+    gap: 6px;
+}
+.menu.headerlink{
+    flex: 1 1 0%;
+}
+.menu.headertxt{
+    flex: 2 2 0%;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+
+.headerlink{
+    size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
