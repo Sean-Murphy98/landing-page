@@ -1,11 +1,13 @@
 *{
     font-family: 'Roboto', serif;
     box-sizing: border-box;
+    margin: 0px;
 }
 
 .opening{
     background-color: #1F2937;
     align-items: center;
+    justify-content: center;
 }
 
 .content{
@@ -21,24 +23,25 @@ h1{
     size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+    flex: 2 1 0%;
 }
 .menu{
     display: flex;
-    gap: 6px;
+    gap: 7px;
+    width: 80%;
+    justify-content: center;
+    padding: 1em 0;
 }
 .menu.headerlink{
     flex: 1 1 0%;
-}
-.menu.headertxt{
-    flex: 2 2 0%;
 }
 img{
     height: 100px;
     width: auto;
 }
 
-.headerlink{
+.headerlink a{
     size: 18px;
     text-decoration: none;
-    color: inherit;
+    color: #E5E7EB;
 }
