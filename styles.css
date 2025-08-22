@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-.opening{
+.opening, .footer{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -155,4 +155,10 @@ img{
     border-radius: 10px;
     border: solid;
     font-weight: bold;
+}
+
+.footer{
+    padding: 2em;
+    color: #E5E7EB;
+    font-size: 11px;
 }
