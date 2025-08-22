@@ -16,12 +16,12 @@
     
 }
 h1{
-    size: 48px;
+    font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 .headertxt{
-    size: 24px;
+    font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
 }
@@ -34,7 +34,7 @@ h1{
 .headerbody{
     flex-wrap: wrap;
     gap: 2em;
-    padding: 2em 0;
+    padding: 1em 0;
 
 }
 .headercontent{
@@ -55,14 +55,14 @@ img{
 }
 
 .headerlink a, .headercontent p{
-    size: 18px;
+    font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
 }
 
 .signup{
     background-color: #3882F6;
-    padding: 0.5em 1em;
+    padding: 0.4em 1em;
     color: #F9FAF8;
     border-radius: 10px;
     border: none;
@@ -77,7 +77,7 @@ img{
     gap: 2em;
 }
 .maintext h2{
-    size: 36px;
+    font-size: 36px;
     font-weight: 900;
     color: #1f2937;
 }
@@ -104,4 +104,24 @@ img{
     border: solid #3882F6;
     height: 150px;
     width: 150px;
+}
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+    gap: 0.5em;
+}
+.quotetext{
+    width: 60%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+.quoteauthor{
+    font-weight: bold;
+    width: 60%;
+    text-align: right;
 }
